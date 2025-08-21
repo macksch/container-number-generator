@@ -1,0 +1,77 @@
+body {
+  background: linear-gradient(120deg, #e0eafc 0%, #cfdef3 100%);
+  font-family: "Segoe UI", Arial, sans-serif;
+  margin: 0;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 480px;
+  margin: 60px auto;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+  padding: 32px 24px;
+}
+
+h1 {
+  text-align: center;
+  color: #2a5d9f;
+  margin-bottom: 24px;
+  font-weight: 600;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+label {
+  font-size: 1.1rem;
+  color: #444;
+}
+
+input[type="number"] {
+  padding: 8px 12px;
+  border: 1px solid #bcdffb;
+  border-radius: 6px;
+  font-size: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 10px 0;
+  background: #2a5d9f;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+button:hover {
+  background: #174a7c;
+}
+
+#output ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.container-number {
+  font-family: "Roboto Mono", monospace;
+  background: #f3f8ff;
+  color: #2a5d9f;
+  padding: 8px 12px;
+  margin-bottom: 8px;
+  border-radius: 6px;
+  font-size: 1.1rem;
+  letter-spacing: 2px;
+  box-shadow: 0 1px 4px rgba(42, 93, 159, 0.06);
+}
